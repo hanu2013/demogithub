@@ -1,8 +1,8 @@
 //
 //  main.m
-//  demogithub
+//  XMPP
 //
-//  Created by Nguyen Kim Ngoc on 7/3/18.
+//  Created by Nguyen Kim Ngoc on 5/31/18.
 //  Copyright © 2018 Nguyen Kim Ngoc. All rights reserved.
 //
 

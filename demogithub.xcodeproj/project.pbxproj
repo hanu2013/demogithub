@@ -13,7 +13,142 @@
 		302E43DB20EAB75C000DA213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302E43DA20EAB75C000DA213 /* Assets.xcassets */; };
 		302E43DE20EAB75C000DA213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302E43DC20EAB75C000DA213 /* LaunchScreen.storyboard */; };
 		302E43E120EAB75C000DA213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 302E43E020EAB75C000DA213 /* main.m */; };
+		302E440220EAB9CC000DA213 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302E440120EAB9CC000DA213 /* CocoaAsyncSocket.framework */; };
+		302E440420EAB9CC000DA213 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302E440320EAB9CC000DA213 /* CocoaLumberjack.framework */; };
+		302E440620EAB9CC000DA213 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302E440520EAB9CC000DA213 /* KissXML.framework */; };
+		302E440820EAB9CC000DA213 /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302E440720EAB9CC000DA213 /* libidn.framework */; };
+		302E440920EAB9CC000DA213 /* XMPPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302E43F620EAB996000DA213 /* XMPPFramework.framework */; };
+		302E440D20EABBE3000DA213 /* AppDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 302E440A20EABBE2000DA213 /* AppDB.xcdatamodeld */; };
+		302E441820EABD50000DA213 /* ChatService.m in Sources */ = {isa = PBXBuildFile; fileRef = 302E441720EABD50000DA213 /* ChatService.m */; };
+		302E441B20EABD69000DA213 /* DBService.m in Sources */ = {isa = PBXBuildFile; fileRef = 302E441A20EABD69000DA213 /* DBService.m */; };
+		302E441D20EABDCF000DA213 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302E441C20EABDCE000DA213 /* CoreData.framework */; };
+		30D342F920EBB2A50029FC17 /* RHAddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F757E320EBB24900CF109B /* RHAddressBook.framework */; };
+		30F757D120EBA93400CF109B /* libPhoneNumberiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F757BE20EBA92D00CF109B /* libPhoneNumberiOS.framework */; };
+		30F757D420EBA9DB00CF109B /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F757D220EBA9DA00CF109B /* Reachability.framework */; };
+		30F757D520EBA9DB00CF109B /* libReachibilitySample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F757D320EBA9DB00CF109B /* libReachibilitySample.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		302E43F520EAB996000DA213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302E43E820EAB995000DA213 /* XMPPFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0D44BAEA1E537066000930E0;
+			remoteInfo = "XMPPFramework (iOS)";
+		};
+		302E43F720EAB996000DA213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302E43E820EAB995000DA213 /* XMPPFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9DCD5331E6256D90010D1C7;
+			remoteInfo = "XMPPFramework (macOS)";
+		};
+		302E43F920EAB996000DA213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302E43E820EAB995000DA213 /* XMPPFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9DCD6961E6258CF0010D1C7;
+			remoteInfo = "XMPPFramework (tvOS)";
+		};
+		302E43FB20EAB996000DA213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302E43E820EAB995000DA213 /* XMPPFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9A7AA621FB97892005183CD;
+			remoteInfo = "XMPPFrameworkSwift (iOS)";
+		};
+		302E43FD20EAB996000DA213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302E43E820EAB995000DA213 /* XMPPFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9A7AE561FB97A3C005183CD;
+			remoteInfo = "XMPPFrameworkSwift (macOS)";
+		};
+		302E43FF20EAB996000DA213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302E43E820EAB995000DA213 /* XMPPFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9A7AFA11FB97A65005183CD;
+			remoteInfo = "XMPPFrameworkSwift (tvOS)";
+		};
+		30F757BD20EBA92D00CF109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F757B320EBA92D00CF109B /* libPhoneNumber.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 34ACBB851B7122AC0064B3BD;
+			remoteInfo = libPhoneNumberiOS;
+		};
+		30F757BF20EBA92D00CF109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F757B320EBA92D00CF109B /* libPhoneNumber.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F31D52A1DDD46B100257818;
+			remoteInfo = libPhoneNumberwatchOS;
+		};
+		30F757C120EBA92D00CF109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F757B320EBA92D00CF109B /* libPhoneNumber.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F31D54D1DDD47B900257818;
+			remoteInfo = libPhoneNumbertvOS;
+		};
+		30F757C320EBA92D00CF109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F757B320EBA92D00CF109B /* libPhoneNumber.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7C72507C1E0EBE7D00F916ED;
+			remoteInfo = libPhoneNumbermacOS;
+		};
+		30F757C520EBA92D00CF109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F757B320EBA92D00CF109B /* libPhoneNumber.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 14B7A2931DE9B65D0051AED7;
+			remoteInfo = libPhoneNumberiOSTests;
+		};
+		30F757C720EBA92D00CF109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F757B320EBA92D00CF109B /* libPhoneNumber.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 14B7A2BE1DE9D7F60051AED7;
+			remoteInfo = MetadataGenerator;
+		};
+		30F757C920EBA92D00CF109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F757B320EBA92D00CF109B /* libPhoneNumber.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B1FEF731EB7BE7C00FBDE87;
+			remoteInfo = SwiftDemo;
+		};
+		30F757E020EBB24900CF109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F757D920EBB24900CF109B /* RHAddressBook.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 13C9D500146C5A8600327D15;
+			remoteInfo = RHAddressBook;
+		};
+		30F757E220EBB24900CF109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F757D920EBB24900CF109B /* RHAddressBook.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 13D15189193E7688003B0F45;
+			remoteInfo = RHAddressBook.framework;
+		};
+		30F757E420EBB24900CF109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F757D920EBB24900CF109B /* RHAddressBook.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 133DF0A81470F273005330C7;
+			remoteInfo = RHAddressBookTester;
+		};
+		30F757E620EBB24900CF109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F757D920EBB24900CF109B /* RHAddressBook.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 133DF0931470EE36005330C7;
+			remoteInfo = RHAddressBookLogicTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		302E43CE20EAB75A000DA213 /* demogithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demogithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +161,23 @@
 		302E43DD20EAB75C000DA213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		302E43DF20EAB75C000DA213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		302E43E020EAB75C000DA213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		302E43E820EAB995000DA213 /* XMPPFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XMPPFramework.xcodeproj; path = ../../XMPPFramework/XMPPFramework.xcodeproj; sourceTree = "<group>"; };
+		302E440120EAB9CC000DA213 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		302E440320EAB9CC000DA213 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		302E440520EAB9CC000DA213 /* KissXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KissXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		302E440720EAB9CC000DA213 /* libidn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libidn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		302E440B20EABBE2000DA213 /* AppDB_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppDB_2.xcdatamodel; sourceTree = "<group>"; };
+		302E440C20EABBE2000DA213 /* AppDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppDB.xcdatamodel; sourceTree = "<group>"; };
+		302E441620EABD50000DA213 /* ChatService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatService.h; sourceTree = "<group>"; };
+		302E441720EABD50000DA213 /* ChatService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatService.m; sourceTree = "<group>"; };
+		302E441920EABD69000DA213 /* DBService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBService.h; sourceTree = "<group>"; };
+		302E441A20EABD69000DA213 /* DBService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBService.m; sourceTree = "<group>"; };
+		302E441C20EABDCE000DA213 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		30D3430920EBB2CC0029FC17 /* ReachibilitySample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachibilitySample.h; sourceTree = "<group>"; };
+		30F757B320EBA92D00CF109B /* libPhoneNumber.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libPhoneNumber.xcodeproj; path = "../libPhoneNumber-iOS/libPhoneNumber.xcodeproj"; sourceTree = "<group>"; };
+		30F757D220EBA9DA00CF109B /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = library/Reachability.framework; sourceTree = "<group>"; };
+		30F757D320EBA9DB00CF109B /* libReachibilitySample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReachibilitySample.a; path = library/libReachibilitySample.a; sourceTree = "<group>"; };
+		30F757D920EBB24900CF109B /* RHAddressBook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RHAddressBook.xcodeproj; path = ../RHAddressBook/RHAddressBook.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +185,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D342F920EBB2A50029FC17 /* RHAddressBook.framework in Frameworks */,
+				30F757D420EBA9DB00CF109B /* Reachability.framework in Frameworks */,
+				30F757D520EBA9DB00CF109B /* libReachibilitySample.a in Frameworks */,
+				30F757D120EBA93400CF109B /* libPhoneNumberiOS.framework in Frameworks */,
+				302E441D20EABDCF000DA213 /* CoreData.framework in Frameworks */,
+				302E440220EAB9CC000DA213 /* CocoaAsyncSocket.framework in Frameworks */,
+				302E440420EAB9CC000DA213 /* CocoaLumberjack.framework in Frameworks */,
+				302E440620EAB9CC000DA213 /* KissXML.framework in Frameworks */,
+				302E440820EAB9CC000DA213 /* libidn.framework in Frameworks */,
+				302E440920EAB9CC000DA213 /* XMPPFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +204,11 @@
 		302E43C520EAB75A000DA213 = {
 			isa = PBXGroup;
 			children = (
+				30D3430720EBB2CC0029FC17 /* include */,
+				302E441520EABCFE000DA213 /* appservice */,
 				302E43D020EAB75A000DA213 /* demogithub */,
 				302E43CF20EAB75A000DA213 /* Products */,
+				302E43E720EAB995000DA213 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +223,7 @@
 		302E43D020EAB75A000DA213 /* demogithub */ = {
 			isa = PBXGroup;
 			children = (
+				302E440A20EABBE2000DA213 /* AppDB.xcdatamodeld */,
 				302E43D120EAB75A000DA213 /* AppDelegate.h */,
 				302E43D220EAB75A000DA213 /* AppDelegate.m */,
 				302E43D420EAB75A000DA213 /* ViewController.h */,
@@ -69,6 +235,88 @@
 				302E43E020EAB75C000DA213 /* main.m */,
 			);
 			path = demogithub;
+			sourceTree = "<group>";
+		};
+		302E43E720EAB995000DA213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F757D920EBB24900CF109B /* RHAddressBook.xcodeproj */,
+				30F757D320EBA9DB00CF109B /* libReachibilitySample.a */,
+				30F757D220EBA9DA00CF109B /* Reachability.framework */,
+				30F757B320EBA92D00CF109B /* libPhoneNumber.xcodeproj */,
+				302E441C20EABDCE000DA213 /* CoreData.framework */,
+				302E440120EAB9CC000DA213 /* CocoaAsyncSocket.framework */,
+				302E440320EAB9CC000DA213 /* CocoaLumberjack.framework */,
+				302E440520EAB9CC000DA213 /* KissXML.framework */,
+				302E440720EAB9CC000DA213 /* libidn.framework */,
+				302E43E820EAB995000DA213 /* XMPPFramework.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		302E43E920EAB995000DA213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				302E43F620EAB996000DA213 /* XMPPFramework.framework */,
+				302E43F820EAB996000DA213 /* XMPPFramework.framework */,
+				302E43FA20EAB996000DA213 /* XMPPFramework.framework */,
+				302E43FC20EAB996000DA213 /* XMPPFrameworkSwift.framework */,
+				302E43FE20EAB996000DA213 /* XMPPFrameworkSwift.framework */,
+				302E440020EAB996000DA213 /* XMPPFrameworkSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		302E441520EABCFE000DA213 /* appservice */ = {
+			isa = PBXGroup;
+			children = (
+				302E441620EABD50000DA213 /* ChatService.h */,
+				302E441720EABD50000DA213 /* ChatService.m */,
+				302E441920EABD69000DA213 /* DBService.h */,
+				302E441A20EABD69000DA213 /* DBService.m */,
+			);
+			path = appservice;
+			sourceTree = "<group>";
+		};
+		30D3430720EBB2CC0029FC17 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				30D3430820EBB2CC0029FC17 /* ReachibilitySample */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		30D3430820EBB2CC0029FC17 /* ReachibilitySample */ = {
+			isa = PBXGroup;
+			children = (
+				30D3430920EBB2CC0029FC17 /* ReachibilitySample.h */,
+			);
+			path = ReachibilitySample;
+			sourceTree = "<group>";
+		};
+		30F757B420EBA92D00CF109B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F757BE20EBA92D00CF109B /* libPhoneNumberiOS.framework */,
+				30F757C020EBA92D00CF109B /* libPhoneNumberwatchOS.framework */,
+				30F757C220EBA92D00CF109B /* libPhoneNumbertvOS.framework */,
+				30F757C420EBA92D00CF109B /* libPhoneNumbermacOS.framework */,
+				30F757C620EBA92D00CF109B /* libPhoneNumberiOSTests.xctest */,
+				30F757C820EBA92D00CF109B /* MetadataGenerator.app */,
+				30F757CA20EBA92D00CF109B /* SwiftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30F757DA20EBB24900CF109B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F757E120EBB24900CF109B /* libRHAddressBook.a */,
+				30F757E320EBB24900CF109B /* RHAddressBook.framework */,
+				30F757E520EBB24900CF109B /* RHAddressBookTester.app */,
+				30F757E720EBB24900CF109B /* RHAddressBookLogicTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,12 +364,148 @@
 			mainGroup = 302E43C520EAB75A000DA213;
 			productRefGroup = 302E43CF20EAB75A000DA213 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 30F757B420EBA92D00CF109B /* Products */;
+					ProjectRef = 30F757B320EBA92D00CF109B /* libPhoneNumber.xcodeproj */;
+				},
+				{
+					ProductGroup = 30F757DA20EBB24900CF109B /* Products */;
+					ProjectRef = 30F757D920EBB24900CF109B /* RHAddressBook.xcodeproj */;
+				},
+				{
+					ProductGroup = 302E43E920EAB995000DA213 /* Products */;
+					ProjectRef = 302E43E820EAB995000DA213 /* XMPPFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				302E43CD20EAB75A000DA213 /* demogithub */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		302E43F620EAB996000DA213 /* XMPPFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = XMPPFramework.framework;
+			remoteRef = 302E43F520EAB996000DA213 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		302E43F820EAB996000DA213 /* XMPPFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = XMPPFramework.framework;
+			remoteRef = 302E43F720EAB996000DA213 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		302E43FA20EAB996000DA213 /* XMPPFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = XMPPFramework.framework;
+			remoteRef = 302E43F920EAB996000DA213 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		302E43FC20EAB996000DA213 /* XMPPFrameworkSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = XMPPFrameworkSwift.framework;
+			remoteRef = 302E43FB20EAB996000DA213 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		302E43FE20EAB996000DA213 /* XMPPFrameworkSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = XMPPFrameworkSwift.framework;
+			remoteRef = 302E43FD20EAB996000DA213 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		302E440020EAB996000DA213 /* XMPPFrameworkSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = XMPPFrameworkSwift.framework;
+			remoteRef = 302E43FF20EAB996000DA213 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30F757BE20EBA92D00CF109B /* libPhoneNumberiOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = libPhoneNumberiOS.framework;
+			remoteRef = 30F757BD20EBA92D00CF109B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30F757C020EBA92D00CF109B /* libPhoneNumberwatchOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = libPhoneNumberwatchOS.framework;
+			remoteRef = 30F757BF20EBA92D00CF109B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30F757C220EBA92D00CF109B /* libPhoneNumbertvOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = libPhoneNumbertvOS.framework;
+			remoteRef = 30F757C120EBA92D00CF109B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30F757C420EBA92D00CF109B /* libPhoneNumbermacOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = libPhoneNumbermacOS.framework;
+			remoteRef = 30F757C320EBA92D00CF109B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30F757C620EBA92D00CF109B /* libPhoneNumberiOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = libPhoneNumberiOSTests.xctest;
+			remoteRef = 30F757C520EBA92D00CF109B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30F757C820EBA92D00CF109B /* MetadataGenerator.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MetadataGenerator.app;
+			remoteRef = 30F757C720EBA92D00CF109B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30F757CA20EBA92D00CF109B /* SwiftDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftDemo.app;
+			remoteRef = 30F757C920EBA92D00CF109B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30F757E120EBB24900CF109B /* libRHAddressBook.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRHAddressBook.a;
+			remoteRef = 30F757E020EBB24900CF109B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30F757E320EBB24900CF109B /* RHAddressBook.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RHAddressBook.framework;
+			remoteRef = 30F757E220EBB24900CF109B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30F757E520EBB24900CF109B /* RHAddressBookTester.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RHAddressBookTester.app;
+			remoteRef = 30F757E420EBB24900CF109B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		30F757E720EBB24900CF109B /* RHAddressBookLogicTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RHAddressBookLogicTests.xctest;
+			remoteRef = 30F757E620EBB24900CF109B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		302E43CC20EAB75A000DA213 /* Resources */ = {
@@ -142,6 +526,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				302E43D620EAB75A000DA213 /* ViewController.m in Sources */,
+				302E441B20EABD69000DA213 /* DBService.m in Sources */,
+				302E440D20EABBE3000DA213 /* AppDB.xcdatamodeld in Sources */,
+				302E441820EABD50000DA213 /* ChatService.m in Sources */,
 				302E43E120EAB75C000DA213 /* main.m in Sources */,
 				302E43D320EAB75A000DA213 /* AppDelegate.m in Sources */,
 			);
@@ -285,10 +672,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74GHHBCQX6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/library",
+				);
+				HEADER_SEARCH_PATHS = "#{SOURCE_ROOT}/include";
 				INFOPLIST_FILE = demogithub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/library",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.ngocnk.demo.demogithub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,10 +698,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74GHHBCQX6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/library",
+				);
+				HEADER_SEARCH_PATHS = "#{SOURCE_ROOT}/include";
 				INFOPLIST_FILE = demogithub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/library",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.ngocnk.demo.demogithub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -335,6 +740,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		302E440A20EABBE2000DA213 /* AppDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				302E440B20EABBE2000DA213 /* AppDB_2.xcdatamodel */,
+				302E440C20EABBE2000DA213 /* AppDB.xcdatamodel */,
+			);
+			currentVersion = 302E440B20EABBE2000DA213 /* AppDB_2.xcdatamodel */;
+			path = AppDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 302E43C620EAB75A000DA213 /* Project object */;
 }
